@@ -1,7 +1,83 @@
 img {
-  height: 30rem;
+  height: 15rem;
+
 }
 
 body {
   height: 60vh;
+}
+
+h1{
+  background-color: #f1e8e8;
+  border-radius: 30px;
+}
+
+
+.container{
+  max-width: 50vh !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+
+
+
+
+button{
+outline: 0;
+grid-gap: 8px;
+align-items: center;
+background: 0 0;
+border: 1px solid #000;
+border-radius: 4px;
+cursor: pointer;
+display: inline-flex;
+flex-shrink: 0;
+font-size: 0.8rem;
+gap: 8px;
+justify-content: center;
+line-height: 2;
+overflow: hidden;
+padding: 16px;
+text-decoration: none;
+text-overflow: ellipsis;
+transition: all .14s ease-out;
+white-space: nowrap;
+
+}
+
+button:hover {
+  box-shadow: 1px 1px 0 #000;
+  transform: translate(-1px,-1px);
+}
+button:focus-visible{
+  outline-offset: 1px;
 }
