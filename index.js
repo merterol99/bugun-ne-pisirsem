@@ -19,6 +19,11 @@ let foods = [
   "Lazanya",
   "Fırında Köfte",
   "Arnavut Ciğeri",
+  "Fırında Makarna",
+  "Zeytinyağlı Biber Dolması",
+  "Zeytinyağlı Kabak Yemeği",
+  "Kremalı Tavuk",
+  "Paçanga Böreği",
 ]
 
 
@@ -271,6 +276,67 @@ let foods = [
 <span class="poppins-medium-italic">4. Servis Et</span> Kızaran ciğerleri kağıt havluya alıp fazla yağını süzdürün. Sıcak olarak, yanında soğan ve ayran ile servis yapın.<br><br>
 
 <span class="poppins-medium-italic">Afiyet olsun! 🍽️</span>`,
+
+"Fırında Makarna" : `
+<span class="poppins-medium-italic">1. Makarna Haşla</span> Geniş bir tencerede su kaynat, tuz ekleyip 1 paket (yaklaşık 500 g) makarnayı haşla. Haşlandıktan sonra süz ve bir kenara al.<br><br>
+
+<span class="poppins-medium-italic">2. Beşamel Sos Hazırla</span> Bir tencerede 2 yemek kaşığı tereyağını erit. Üzerine 2 yemek kaşığı un ekleyip kokusu çıkana kadar kavur. Yavaşça 2,5 su bardağı süt ekleyerek sürekli karıştır. Tuz, karabiber ekleyip koyulaşana kadar pişir.<br><br>
+
+<span class="poppins-medium-italic">3. Karıştır ve Tepsiye Yay</span> Haşlanmış makarnayı beşamel sos ile karıştır. Yağlanmış fırın kabına eşit şekilde yayın.<br><br>
+
+<span class="poppins-medium-italic">4. Peynir Ekle ve Fırınla</span> Üzerine bolca rendelenmiş kaşar peyniri serpin. 180°C önceden ısıtılmış fırında üzeri kızarana kadar (yaklaşık 20-25 dakika) pişirin.<br><br>
+
+<span class="poppins-medium-italic">5. Servis Et</span> Fırından çıkarıp 5 dakika dinlendirin, dilimleyerek sıcak servis yap.<br><br>
+
+<span class="poppins-medium-italic">Afiyet olsun! 🧀🍽️</span>`,
+
+"Zeytinyağlı Biber Dolması" : `
+<span class="poppins-medium-italic">1. İç Harcı Hazırla</span> İnce doğranmış 2 soğanı yarım çay bardağı zeytinyağında kavur. 1 rendelenmiş domates ekleyip karıştır. Yıkanmış 1 su bardağı pirinci ekleyerek hafifçe kavur.<br><br>
+
+<span class="poppins-medium-italic">2. Baharatları Ekle</span> Dolmalık fıstık, kuş üzümü, tarçın, kuru nane, karabiber, toz şeker ve tuz ekleyip karıştır. Ocaktan alıp doğranmış maydanoz ve taze nane ekleyin.<br><br>
+
+<span class="poppins-medium-italic">3. Biberleri Doldur</span> Dolmalık biberlerin kapaklarını aç, yıka ve iç harcı fazla sıkıştırmadan doldur. Üzerlerine küçük doğranmış domates kapak yap.<br><br>
+
+<span class="poppins-medium-italic">4. Pişir</span> Tencereye diz, yarım çay bardağı zeytinyağı gezdir ve biberlerin yarısına gelecek kadar su ekle. Kapağı kapatıp 20-25 dakika pişir.<br><br>
+
+<span class="poppins-medium-italic">5. Servis Et</span> Ilındıktan sonra zeytinyağlı biber dolmalarını soğuk veya ılık servis et.<br><br>
+
+<span class="poppins-medium-italic">Afiyet olsun! 🌿</span>`,
+
+"Zeytinyağlı Kabak Yemeği" : `
+<span class="poppins-medium-italic">1. Malzemeleri Hazırla</span> 1 adet soğanı yemeklik doğra, 3 kabak ve 1 domatesi küp küp kes.<br><br>
+
+<span class="poppins-medium-italic">2. Soğanı Kavur</span> Bir tencerede yarım çay bardağı zeytinyağında doğranmış soğanı pembeleşene kadar kavur. Üzerine domatesi ekleyip karıştır.<br><br>
+
+<span class="poppins-medium-italic">3. Kabakları Ekle</span> Doğranmış kabakları tencereye ekle. Tuz, karabiber ve 1 tatlı kaşığı toz şeker ekleyerek karıştır.<br><br>
+
+<span class="poppins-medium-italic">4. Pişir</span> Üzerine 1 çay bardağı su ekleyip kapağı kapat. Orta ateşte kabaklar yumuşayana kadar, yaklaşık 20 dakika pişir.<br><br>
+
+<span class="poppins-medium-italic">5. Servis Et</span> Ilındıktan sonra üzerine ince doğranmış dereotu serpip servis et.<br><br>
+
+<span class="poppins-medium-italic">Afiyet olsun! 🌿</span>`,
+
+"Kremalı Tavuk" : `
+<span class="poppins-medium-italic">1. Tavukları Hazırla</span> 500 g tavuk göğsünü jülyen veya küp şeklinde doğra. Tuz ve karabiber ile tatlandır.<br><br>
+
+<span class="poppins-medium-italic">2. Tavukları Sotele</span> Bir tavada 2 yemek kaşığı sıvı yağ ısıt, tavukları ekleyip yüksek ateşte suyunu salıp çekene kadar sotele.<br><br>
+
+<span class="poppins-medium-italic">3. Kremalı Sos Hazırla</span> Tavuklara 200 ml krema ekle, isteğe bağlı 1 diş ezilmiş sarımsak ve biraz muskat rendesi kat. Kısık ateşte 5-7 dakika pişir.<br><br>
+
+<span class="poppins-medium-italic">4. Servis Et</span> Üzerine ince doğranmış maydanoz veya rendelenmiş parmesan ekleyerek sıcak servis yap.<br><br>
+
+<span class="poppins-medium-italic">Afiyet olsun! 🍗🥛</span>`,
+
+"Paçanga Böreği" : `
+<span class="poppins-medium-italic">1. İç Harcı Hazırla</span> 150 g pastırmayı ince doğra. 1 adet domatesi küp küp doğrayıp 1 su bardağı rendelenmiş kaşar peyniri ile karıştır.<br><br>
+
+<span class="poppins-medium-italic">2. Börekleri Hazırla</span> Yufkayı üçgen şekilde kes. İç harçtan koyup kenarlarını katlayarak sigara böreği gibi sar.<br><br>
+
+<span class="poppins-medium-italic">3. Kızart</span> Bir tavada sıvı yağı ısıt. Börekleri altın rengi olana kadar kızartıp kağıt havluya al.<br><br>
+
+<span class="poppins-medium-italic">4. Servis Et</span> Sıcak olarak, yanında yoğurt veya ayran ile servis yap.<br><br>
+
+<span class="poppins-medium-italic">Afiyet olsun! 🧀🥓</span>`,
 
   }
 
