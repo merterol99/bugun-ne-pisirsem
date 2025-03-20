@@ -349,7 +349,7 @@ let foods = [
 
 
 
-
+  changeFood(); 
 
 
 
