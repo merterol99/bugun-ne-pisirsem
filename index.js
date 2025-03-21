@@ -24,11 +24,166 @@ let foods = [
   "Zeytinyağlı Kabak Yemeği",
   "Kremalı Tavuk",
   "Paçanga Böreği",
+  "Kapuska",
+  "Hamsi Buğulama",
+  "Kağıtta Levrek",
+  "Fırında Somon",
+  "Peynirli Cevizli Erişte",
+  "Arap Tava",
+  "Orman Kebabı",
+  "Kağıt Kebabı",
+  "Kuru Dolma",
+  "Erişteli Yeşil Mercimek",
+  "Zeytinyağlı Kereviz",
 ]
 
 
 
   let recipes = {
+
+"Zeytinyağlı Kereviz" : `
+<span class="poppins-medium-italic">1. Kerevizleri Hazırla</span> 2 adet kerevizi soyup, dilimleyin ve limonlu suda kararmaması için bekletin.<br><br>
+
+<span class="poppins-medium-italic">2. Soğanı Kavur</span> 1 soğanı ince doğrayıp, 3 yemek kaşığı zeytinyağında kavurun.<br><br>
+
+<span class="poppins-medium-italic">3. Kereviz ve Diğer Malzemeleri Ekle</span> Kerevizleri, 1 havucu rendelenmiş, 1 patatesi doğranmış şekilde ekleyin. Üzerine 1 su bardağı su, tuz ve karabiber ilave edin.<br><br>
+
+<span class="poppins-medium-italic">4. Pişir</span> Kapağını kapatıp kısık ateşte 30-35 dakika pişirin.<br><br>
+
+<span class="poppins-medium-italic">5. Servis Et</span> Soğuduktan sonra soğuk veya ılık servis yap.<br><br>
+
+<span class="poppins-medium-italic">Afiyet olsun! 🥕🍽️</span>`,
+
+"Erişteli Yeşil Mercimek" : `
+<span class="poppins-medium-italic">1. Mercimeği Haşla</span> 1 su bardağı yeşil mercimeği bol suda haşlayıp süz.<br><br>
+
+<span class="poppins-medium-italic">2. Erişteyi Kavur</span> Bir tavada 1 yemek kaşığı tereyağında 1 su bardağı erişteyi kavur.<br><br>
+
+<span class="poppins-medium-italic">3. Mercimek ve Baharatları Ekle</span> Haşlanmış mercimeği tavaya ekleyip, tuz, karabiber, pul biber ve kimyon ekleyerek karıştır.<br><br>
+
+<span class="poppins-medium-italic">4. Su ve Pişirme</span> Üzerine 1 su bardağı sıcak su ilave edip, kısık ateşte 10-15 dakika pişir.<br><br>
+
+<span class="poppins-medium-italic">5. Servis Et</span> Sıcak servis yap.<br><br>
+
+<span class="poppins-medium-italic">Afiyet olsun! 🍛🍽</span>`,
+
+"Kuru Dolma" : `
+<span class="poppins-medium-italic">1. İç Harcı Hazırla</span> 1 su bardağı pirinci yıkayıp süz, 1 soğanı ince doğra ve 2 yemek kaşığı zeytinyağında kavur. Üzerine 1 yemek kaşığı salça ekleyip karıştır.<br><br>
+
+<span class="poppins-medium-italic">2. Baharatları Ekleyin</span> Pirinci ekleyip 2 su bardağı su, tuz, karabiber, pul biber, tarçın, kuru nane ve şeker ekleyip karıştır. Ocağın altını kapatıp 1 tutam doğranmış maydanoz ekleyin.<br><br>
+
+<span class="poppins-medium-italic">3. Kuru Yapraksız Dolma</span> Kuru dolma yapraklarını sıcak suyla 10 dakika bekletip yumuşatın, iç harcını içine doldurun.<br><br>
+
+<span class="poppins-medium-italic">4. Tencereye Yerleştir</span> Dolmaları tencereye sıralayın, üzerlerine 1 yemek kaşığı tereyağı ekleyin ve üzerini geçecek kadar su ilave edin.<br><br>
+
+<span class="poppins-medium-italic">5. Pişir</span> Kapağını kapatıp kısık ateşte 30-35 dakika pişirin.<br><br>
+
+<span class="poppins-medium-italic">6. Servis Et</span> Sıcak olarak yoğurt ile servis yap.<br><br>
+
+<span class="poppins-medium-italic">Afiyet olsun! 🍚🌿</span>`,
+
+"Kağıt Kebabı" : `
+<span class="poppins-medium-italic">1. Eti Hazırla</span> 400 g kuşbaşı eti tuz, karabiber, pul biber ile tatlandır. 1 soğanı ve 1 yeşil biberi doğrayıp etle karıştır.<br><br>
+
+<span class="poppins-medium-italic">2. Sebzeleri Hazırlayın</span> 2 domatesi ve 1 havucu doğrayıp et karışımına ekleyin.<br><br>
+
+<span class="poppins-medium-italic">3. Kağıda Sar</span> Fırın kağıdına eti ve sebzeleri yerleştirin. Kağıdı iyice kapatarak paket yapın.<br><br>
+
+<span class="poppins-medium-italic">4. Fırında Pişir</span> 180°C önceden ısıtılmış fırında 40-45 dakika pişirin.<br><br>
+
+<span class="poppins-medium-italic">5. Servis Et</span> Fırından çıkarıp sıcak olarak servis yap.<br><br>
+
+<span class="poppins-medium-italic">Afiyet olsun! 🍖🍅</span>`,  
+
+"Orman Kebabı" : `
+<span class="poppins-medium-italic">1. Eti Kavur</span> 400 g kuşbaşı eti tencereye al, suyunu salıp çekene kadar kavur. Üzerine 2 yemek kaşığı sıvı yağ ekleyip biraz daha kavur.<br><br>
+
+<span class="poppins-medium-italic">2. Sebzeleri Ekle</span> 1 soğanı yemeklik doğrayıp ekle. 2 havuç ve 2 patatesi küp doğrayıp tencereye al, 2-3 dakika kavur.<br><br>
+
+<span class="poppins-medium-italic">3. Salça ve Baharatları Kat</span> 1 yemek kaşığı salça, tuz, karabiber ve kekik ekleyip karıştır. Üzerini geçecek kadar sıcak su ekleyip pişmeye bırak.<br><br>
+
+<span class="poppins-medium-italic">4. Bezelye Ekleyip Pişir</span> 1 su bardağı bezelyeyi ekleyip sebzeler ve et iyice yumuşayana kadar yaklaşık 30 dakika pişir.<br><br>
+
+<span class="poppins-medium-italic">5. Servis Et</span> Sıcak olarak pilav veya ekmek eşliğinde servis yap.<br><br>
+
+<span class="poppins-medium-italic">Afiyet olsun! 🥩🥕🥔</span>`,
+
+"Arap Tava" : `
+<span class="poppins-medium-italic">1. Malzemeleri Hazırla</span> 300 g kıymayı bir kaba al. 2 domates, 2 biber, 1 soğan ve 2 diş sarımsağı küçük doğra.<br><br>
+
+<span class="poppins-medium-italic">2. Harcı Karıştır</span> Kıyma, doğranmış sebzeler, 2 yemek kaşığı zeytinyağı, tuz, karabiber, pul biber ve kimyonu karıştır.<br><br>
+
+<span class="poppins-medium-italic">3. Tepsiye Yay</span> Karışımı fırın kabına eşit şekilde yay. Üzerine birkaç domates ve biber dilimi ekle.<br><br>
+
+<span class="poppins-medium-italic">4. Pişir</span> 180°C önceden ısıtılmış fırında yaklaşık 30-35 dakika pişir.<br><br>
+
+<span class="poppins-medium-italic">5. Servis Et</span> Fırından alıp yanında sıcak lavaş veya pilav ile servis yap.<br><br>
+
+<span class="poppins-medium-italic">Afiyet olsun! 🍅🥩🔥</span>`,
+
+"Peynirli Cevizli Erişte" : `
+<span class="poppins-medium-italic">1. Erişteyi Haşla</span> Bir tencerede su kaynat, tuz ekleyip 2 su bardağı erişteyi ekle. 8-10 dakika haşlayıp süz.<br><br>
+
+<span class="poppins-medium-italic">2. Yağda Kavur</span> Bir tavada 2 yemek kaşığı tereyağını erit, erişteyi ekleyip hafifçe kavur.<br><br>
+
+<span class="poppins-medium-italic">3. Ceviz ve Peyniri Ekle</span> 1 çay bardağı iri dövülmüş cevizi ve 1 su bardağı rendelenmiş beyaz peynir veya lor peynirini ekleyip karıştır.<br><br>
+
+<span class="poppins-medium-italic">4. Servis Et</span> Üzerine isteğe bağlı maydanoz serperek sıcak servis yap.<br><br>
+
+<span class="poppins-medium-italic">Afiyet olsun! 🧀🌰🍝</span>`,
+
+"Fırında Somon" : `
+<span class="poppins-medium-italic">1. Malzemeleri Hazırla</span> 2 dilim somon filetoyu yıka ve kurula. 1 limonu ince dilimle, 2 diş sarımsağı doğra.<br><br>
+
+<span class="poppins-medium-italic">2. Sosu Hazırla</span> Yarım çay bardağı zeytinyağına tuz, karabiber, pul biber ve doğranmış sarımsağı ekleyip karıştır.<br><br>
+
+<span class="poppins-medium-italic">3. Somonu Baharatla</span> Somonları fırın tepsisine al, hazırladığın sosu üzerine gezdir. Üzerine limon dilimleri yerleştir.<br><br>
+
+<span class="poppins-medium-italic">4. Pişir</span> 180°C önceden ısıtılmış fırında yaklaşık 20-25 dakika pişir.<br><br>
+
+<span class="poppins-medium-italic">5. Servis Et</span> Fırından alıp yanında haşlanmış sebzeler veya yeşilliklerle sıcak servis yap.<br><br>
+
+<span class="poppins-medium-italic">Afiyet olsun! 🐟🍋</span>`,
+
+"Kağıtta Levrek" : `
+<span class="poppins-medium-italic">1. Malzemeleri Hazırla</span> 2 adet levrek filetoyu yıka ve kurula. 1 soğanı halka, 1 domatesi ince dilimle. 1 limonu ince kes.<br><br>
+
+<span class="poppins-medium-italic">2. Balığı Baharatla</span> Levrekleri tuz, karabiber, pul biber ve yarım çay bardağı zeytinyağı ile ov.<br><br>
+
+<span class="poppins-medium-italic">3. Pişirme Kağıdına Yerleştir</span> Fırın kağıdına soğanları yay, üzerine balıkları koy. Üzerine domates ve limon dilimleri ekle. İsteğe bağlı sarımsak ve defne yaprağı ekleyebilirsin.<br><br>
+
+<span class="poppins-medium-italic">4. Paketle ve Pişir</span> Kağıdı kapatıp kenarlarını sıkıca katla. 180°C fırında 25-30 dakika pişir.<br><br>
+
+<span class="poppins-medium-italic">5. Servis Et</span> Fırından alıp kağıdı aç, yanında yeşilliklerle sıcak servis yap.<br><br>
+
+<span class="poppins-medium-italic">Afiyet olsun! 🐟🍋</span>`,
+
+"Hamsi Buğulama" : `
+<span class="poppins-medium-italic">1. Malzemeleri Hazırla</span> 500 g temizlenmiş hamsiyi yıka, 1 soğanı halka doğra, 1 domatesi dilimle, 1 limonu ince kes.<br><br>
+
+<span class="poppins-medium-italic">2. Tepsiye Diz</span> Fırın kabına soğanları yay, üzerine hamsileri diz. Domates ve limon dilimlerini ekle.<br><br>
+
+<span class="poppins-medium-italic">3. Sosu Hazırla</span> Yarım çay bardağı zeytinyağı, tuz, karabiber ve pul biberi karıştırıp hamsilerin üzerine gezdir.<br><br>
+
+<span class="poppins-medium-italic">4. Pişir</span> Önceden 180°C ısıtılmış fırında üzeri kızarana kadar yaklaşık 20 dakika pişir.<br><br>
+
+<span class="poppins-medium-italic">5. Servis Et</span> Fırından çıkarıp sıcak olarak yanında roka ve limon ile servis yap.<br><br>
+
+<span class="poppins-medium-italic">Afiyet olsun! 🐟🍋</span>`,
+
+"Kapuska" : `
+<span class="poppins-medium-italic">1. Malzemeleri Hazırla</span> Yarım orta boy lahanayı ince doğra, 1 soğanı yemeklik doğra.<br><br>
+
+<span class="poppins-medium-italic">2. Soğanı Kavur</span> Bir tencerede 2 yemek kaşığı sıvı yağ ile soğanı pembeleşene kadar kavur. 1 yemek kaşığı salça ekleyip karıştır.<br><br>
+
+<span class="poppins-medium-italic">3. Lahanayı Pişir</span> Doğranmış lahanayı ekle, tuz, karabiber ve pul biber serpip karıştır. Üzerine 1 su bardağı sıcak su ekleyip kapağını kapat.<br><br>
+
+<span class="poppins-medium-italic">4. Kısık Ateşte Pişir</span> Lahanalar yumuşayana kadar 20-25 dakika pişir. İsteğe bağlı kıyma ekleyebilirsin.<br><br>
+
+<span class="poppins-medium-italic">5. Servis Et</span> Ilındıktan sonra yoğurt ile sıcak servis yap.<br><br>
+
+<span class="poppins-medium-italic">Afiyet olsun! 🥬🍽️</span>`,
+
 "Mantı" : `
 <span class="poppins-medium-italic">1. Hamuru Hazırla</span> 2 su bardağı un, 1 yumurta, tuz ve azar azar su ekleyerek yumuşak bir hamur yoğur.<br><br>
 
